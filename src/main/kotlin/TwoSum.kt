@@ -1,13 +1,12 @@
-fun twoSum(nums: IntArray, target: Int): IntArray {
-    val result = IntArray(2)
+fun twoSum(nums: IntArray, target: Int): IntArray? {
+    val hashMap = HashMap<Int, Int>()
     for (i in nums.indices) {
-        for (j in i + 1 until nums.size) {
-            if (nums[i] + nums[j] == target) {
-                result[0] = i
-                result[1] = j
-                break
-            }
+        val complement = target - nums[i]
+        if (hashMap.containsKey(complement)) {
+            return intArrayOf(hashMap[complement]!!, i)
         }
+        hashMap[nums[i]] = i
     }
-    return result
+
+    return null
 }
