@@ -1,8 +1,9 @@
 package easy
 
 fun isValid(s: String): Boolean {
-    val stack = ArrayDeque<Char>()
+    if (s.length % 2 != 0) return false
 
+    val stack = ArrayDeque<Char>()
     s.forEach {
         when (it) {
             '(', '[', '{' -> stack.addLast(it)
