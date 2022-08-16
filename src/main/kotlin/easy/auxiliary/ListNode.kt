@@ -1,5 +1,5 @@
 package easy.auxiliary
 
-class ListNode(var nodeValue: Int) {
+class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
