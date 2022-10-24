@@ -1,6 +1,6 @@
 package easy
 
-import easy.auxiliary.ListNode
+import auxiliary.ListNode
 
 fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
     if (list1 == null) return list2

@@ -1,6 +1,6 @@
 package easy
 
-import easy.auxiliary.ListNode
+import auxiliary.ListNode
 
 fun hasCycle(head: ListNode?): Boolean {
     if (head?.next == null) return false

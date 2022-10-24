@@ -1,6 +1,6 @@
 package easy
 
-import easy.auxiliary.ListNode
+import auxiliary.ListNode
 
 fun reverseList(head: ListNode?): ListNode? {
     return reverseListInt(head, null)

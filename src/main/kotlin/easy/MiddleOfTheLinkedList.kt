@@ -1,6 +1,6 @@
 package easy
 
-import easy.auxiliary.ListNode
+import auxiliary.ListNode
 
 fun middleNode(head: ListNode?): ListNode? {
     var slow: ListNode? = head

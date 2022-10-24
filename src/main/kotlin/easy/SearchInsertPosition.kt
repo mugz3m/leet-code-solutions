@@ -1,6 +1,6 @@
 package easy
 
-import easy.auxiliary.binarySearch
+import auxiliary.binarySearch
 
 fun searchInsert(nums: IntArray, target: Int): Int {
     return binarySearch(nums, target, 0, nums.lastIndex)
