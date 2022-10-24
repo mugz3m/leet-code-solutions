@@ -1,6 +1,6 @@
 package medium
 
-import easy.auxiliary.ListNode
+import auxiliary.ListNode
 
 fun detectCycle(head: ListNode?): ListNode? {
     if (head?.next == null) return null

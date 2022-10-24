@@ -1,4 +1,4 @@
-package easy.auxiliary
+package auxiliary
 
 fun binarySearch(nums: IntArray, target: Int, startIndex: Int, endIndex: Int): Int {
     val middleIndex = (startIndex + endIndex) / 2
