@@ -1,6 +1,6 @@
 package auxiliary
 
-class TreeNode(var nodeValue: Int) {
+class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 }
