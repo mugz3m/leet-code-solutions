@@ -8,7 +8,6 @@ render.experimental.xml
 # Gradle files
 .gradle/
 build/
-gradle/
 
 # Log file
 *.log
