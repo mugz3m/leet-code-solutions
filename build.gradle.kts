@@ -16,5 +16,5 @@ dependencies {
 }
 
 kotlin {
-    compilerOptions.jvmTarget.set(JvmTarget.JVM_11)
+    compilerOptions.jvmTarget.set(JvmTarget.JVM_17)
 }
